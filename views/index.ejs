@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSpace</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <%- include('partials/nav.ejs') %>
+
+        <div id="herosection" class="container">
+            <div class="px-4 py-5 my-5 text-center">
+                <h1 class="display-5 fw-bold text-body-emphasis">“Designing your dream space has never been easier.
+                    Welcome to <span id="logoname">EcoSpace</span>, the future of interior design.”</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Capture an image of your room and let our advanced AI tool, EcoSpace, transform
+                        it into an extraordinary design. </p>
+
+                </div>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3"><a href="/main">Design your
+                            Room</a></button>
+                </div>
+            </div>
+            <div class="container-fluid image-container">
+                <div class="row">
+                    <div class="col-5 d-flex justify-content-center">
+                        <p class="display-5">Input Image</p>
+                    </div>
+
+                    <div class="col-1 comp">
+                    </div>
+
+                    <div class="col-5 d-flex justify-content-center">
+                        <p class="display-5">Generated Image</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid image-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img class="img-fluid" src="/assests/sample1.png" alt="">
+                    </div>
+
+                    <div class="col-1 comp">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </div>
+
+                    <div class="col-5">
+                        <img class="img-fluid" src="/assests/output1.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid mt-4">
+                <div class="row">
+                    <div class="col-5">
+                        <img class="img-fluid" src="/assests/sample2.jpg" alt="">
+                    </div>
+
+                    <div class="col-1 comp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </div>
+
+                    <div class="col-5">
+                        <img class="img-fluid" src="/assests/output2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <%- include('partials/footer.ejs') %>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

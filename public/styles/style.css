@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#logoname {
+  color: #a06bdd;
+}
+.comp {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* padding-left: 20px; */
+}
+
+.row ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* .row img{
+    border-radius: 10px;
+    height: 400px;
+    width: 500px;
+    
+} */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+input[type="submit"] {
+  background: none;
+  border: none;
+}
+
+.img-fluid {
+  color: #a06bdd;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#output-img {
+  border: 1px solid white;
+  /* height: 600px;
+    width: 600px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px 0 rgb(27, 27, 27); */
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+input[type="color"] {
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid white;
+  background: none;
+  height: 20px;
+  width: 40px;
+}
+
+/* Customize Select2 container */
+.select2-container {
+  width: 100%;
+}
+
+/* Customize Select2 dropdown */
+.select2-dropdown {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+/* Customize Select2 results */
+.select2-results {
+  color: #fff; /* Light text color */
+}
+
+/* Customize Select2 options */
+.select2-results__option {
+  background-color: #444; /* Dark background color */
+}
+
+
